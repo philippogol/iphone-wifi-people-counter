@@ -1,0 +1,24 @@
+
+# Exclude YOLO weights
+yolo/*.weights
+
+# Virtual environment
+venv/
+
+# macOS system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and local files
+*.log
+*.tmp
+*.swp
+
+# Ignore test scripts (optional)
+#main-*.py
+commands.txt
